@@ -6,7 +6,7 @@ Homebrew formulae for [geekdada](https://github.com/geekdada) projects.
 
 ```sh
 brew tap geekdada/tap
-brew install models
+brew install geekdada/tap/models
 ```
 
 ## Available Formulae
