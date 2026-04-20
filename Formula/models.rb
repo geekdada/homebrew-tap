@@ -1,28 +1,28 @@
 class Models < Formula
   desc "Terminal UI for browsing AI model data from models.dev"
   homepage "https://github.com/geekdada/models-dev-cli"
-  version "0.1.2"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/geekdada/models-dev-cli/releases/download/v0.1.2/models-aarch64-apple-darwin.tar.gz"
-      sha256 "1abec9e307d2e0dc1a2d48eb1569c1695a36429255a1dac3e1b7c4661fbbe965"
+      url "https://github.com/geekdada/models-dev-cli/releases/download/v0.2.0/models-aarch64-apple-darwin.tar.gz"
+      sha256 "a2ebd0e7a0a1f92e92705d5555b581a456763b2f30c2151436317a22edd225cd"
     end
     on_intel do
-      url "https://github.com/geekdada/models-dev-cli/releases/download/v0.1.2/models-x86_64-apple-darwin.tar.gz"
-      sha256 "cfe529920e43f90e19be88441c0ab2bdc846ab7fc3f247e9899b7780be8f1ec1"
+      url "https://github.com/geekdada/models-dev-cli/releases/download/v0.2.0/models-x86_64-apple-darwin.tar.gz"
+      sha256 "fccef83c5f6b1a9a57d3ea544c665d33f39345d9908cc2306f75b22fb9f6a1ba"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/geekdada/models-dev-cli/releases/download/v0.1.2/models-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7db2703f7a3911568684d64151d517814939211ddcd0415aefaa2e11c0a2b59f"
+      url "https://github.com/geekdada/models-dev-cli/releases/download/v0.2.0/models-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0dcab1d3daf4e6c03761f53db5a185a21d7eb8710d733da67491108841f162df"
     end
     on_intel do
-      url "https://github.com/geekdada/models-dev-cli/releases/download/v0.1.2/models-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d1a125531b08a64ca56d5af09936400c0dfe7e125e0566903d81ea7223529e7e"
+      url "https://github.com/geekdada/models-dev-cli/releases/download/v0.2.0/models-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "765f03cbc946fb6f704655e3c7151fa123ed412258ba7b830ce6d9dfc494ec1f"
     end
   end
 
