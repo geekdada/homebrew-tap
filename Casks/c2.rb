@@ -1,14 +1,14 @@
 cask "c2" do
-  version "0.2.4"
+  version "0.3.0"
 
   on_arm do
-    sha256 "eccdb8b18e8f8f62e733a86b958ea9cae46e9ebc4729db373db9ca14db9038c5"
-    url "https://github.com/geekdada/c2/releases/download/v0.2.4/darwin-aarch64.dmg"
+    sha256 "0c42cd7d81c3b846d556a27755bddcd3ed2f3602a57f61f81104b4ac4305fcd8"
+    url "https://github.com/geekdada/c2/releases/download/v0.3.0/darwin-aarch64.dmg"
   end
 
   on_intel do
-    sha256 "96bcdf162c9f5b40f4681155024dbf201be27f6a214a04c7cf6a2779209774b8"
-    url "https://github.com/geekdada/c2/releases/download/v0.2.4/darwin-universal.dmg"
+    sha256 "8adf22f33d9524e72569ffeb7aed51a4f963586c361bf4275782f285d50709e0"
+    url "https://github.com/geekdada/c2/releases/download/v0.3.0/darwin-universal.dmg"
   end
 
   name "C2"
